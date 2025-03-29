@@ -38,6 +38,11 @@ The primary task is to compare the performance of classifiers in predicting mark
 ### Step 5: Engineering Features and Visualization
 After understanding the business objective, we proceed to feature engineering and visualization. This step involves preparing the dataset for modeling, which may include encoding categorical variables, scaling numerical features, and transforming the data as necessary. Visualization is used to explore the relationships between features and the target variable, providing insights that can guide model selection.
 
+![Image](https://github.com/user-attachments/assets/b7774a1d-ec1d-4e7e-87bd-7bc7453d4d6e)
+
+![Image](https://github.com/user-attachments/assets/3113d693-69b2-4113-b29b-ecaf2d47cda5)
+
+
 
 ### Step 6: Train/Test Split
 Split the data into training and test sets. The training set is used to build the model, while the test set will evaluate the model's performance on unseen data. This ensures that we can assess how well the model generalizes to new data.
@@ -57,6 +62,9 @@ Finally, we compare the performance of multiple classifiers (e.g., KNN, Decision
 ### Step 11: Improving the Model
 Once we built and evaluated the initial models, the next step is to improve the model to achieve better performance. 
 
+![Image](https://github.com/user-attachments/assets/d67dfdfd-7a4f-450e-b9c6-5f0aad3a37d3)
+
+![Image](https://github.com/user-attachments/assets/1ae165fa-184a-4954-ae2a-4ea123d4a5b1)
 
 
 
