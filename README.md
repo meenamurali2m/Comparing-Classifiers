@@ -1,6 +1,6 @@
 # Comparing-Classifiers
 
-##Business Objective
+## Business Objective
 
 The objective of this project is to optimize the predictive performance of various classifiers for predicting the success of a bank marketing campaign. The campaign aims to predict whether a customer will subscribe to a product based on their characteristics (e.g., demographic data, past behavior). The classifiers compared in this project are:
 
