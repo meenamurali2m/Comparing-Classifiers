@@ -27,16 +27,16 @@ The target variable is whether or not the customer will subscribe to the product
 In this step, we familiarize ourselves with the dataset by examining its structure, features, and overall composition. This includes checking for any inconsistencies, such as missing values or erroneous data entries, to ensure that we can proceed with a clean dataset for analysis.
 
 ### Step 2: Load the Data
-Import the dataset into our environment, typically using pandas library. This will allow us to manipulate and explore the data, preparing it for analysis and model training.
+Import the dataset into our environment, using pandas library. This allows us to manipulate and explore the data, preparing it for analysis and model training.
 
 ### Step 3: Understanding the Features
-Identify the various features of the dataset, which might include customer demographics, previous interactions, and marketing campaign results. We also check for any missing values and identify whether any features need to be converted to different data types (e.g., categorical variables needing encoding or continuous variables requiring scaling).
+Identify the various features of the dataset, which include customer demographics, previous interactions, and marketing campaign results. We also check for any missing values and identify whether any features need to be converted to different data types (e.g., categorical variables needing encoding or continuous variables requiring scaling).
 
 ### Step 4: Understanding the Task
 The primary task is to compare the performance of classifiers in predicting marketing success for bank products. The goal is to optimize the predictive performance of classifiers like K-Nearest Neighbors, Logistic Regression, Decision Trees, and Support Vector Machines, ultimately enhancing a marketing campaign for selling bank products over the telephone. By choosing the most effective classifier, we aim to improve customer targeting, increase conversion rates, and reduce marketing costs.
 
 ### Step 5: Engineering Features and Visualization
-After understanding the business objective, we proceed to feature engineering and visualization. This step involves preparing the dataset for modeling, which may include encoding categorical variables, scaling numerical features, and transforming the data as necessary. Visualization is used to explore the relationships between features and the target variable, providing insights that can guide model selection.
+After understanding the business objective, we proceed to feature engineering and visualization. This step involves preparing the dataset for modeling, which includes encoding categorical variables, scaling numerical features, and transforming the data as necessary. Visualization is used to explore the relationships between features and the target variable, providing insights that can guide model selection.
 
 ![Image](https://github.com/user-attachments/assets/b7774a1d-ec1d-4e7e-87bd-7bc7453d4d6e)
 
@@ -56,8 +56,14 @@ Build and train a Logistic Regression model, a powerful classifier for binary ou
 ### Step 9: Score the Model
 Once we train the model, we score it using various performance metrics (such as accuracy, precision, recall, and F1-score) on both the training and test sets. This helps us understand how well the model is performing and identify areas for improvement.
 
+#### Accuracy: 0.9092
+
 ### Step 10: Model Comparisons
 Finally, we compare the performance of multiple classifiers (e.g., KNN, Decision Trees, SVM) to determine which one performs best for this task. We also evaluate computational efficiency (training time and prediction time) to identify models that are both effective and efficient, ensuring optimal performance in real-world applications.
+
+<img width="401" alt="Image" src="https://github.com/user-attachments/assets/0664f3de-86da-4452-b8b4-475f486dc7bd" />
+
+<img width="364" alt="Image" src="https://github.com/user-attachments/assets/57ad5141-51fa-4891-bc81-71c930081679" />
 
 ### Step 11: Improving the Model
 Once we built and evaluated the initial models, the next step is to improve the model to achieve better performance. 
