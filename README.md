@@ -61,12 +61,12 @@ Once we train the model, we score it using various performance metrics (such as 
 ### Step 10: Model Comparisons
 Finally, we compare the performance of multiple classifiers (e.g., KNN, Decision Trees, SVM) to determine which one performs best for this task. We also evaluate computational efficiency (training time and prediction time) to identify models that are both effective and efficient, ensuring optimal performance in real-world applications.
 
-<img width="401" alt="Image" src="https://github.com/user-attachments/assets/0664f3de-86da-4452-b8b4-475f486dc7bd" />
-
 <img width="364" alt="Image" src="https://github.com/user-attachments/assets/57ad5141-51fa-4891-bc81-71c930081679" />
 
 ### Step 11: Improving the Model
 Once we built and evaluated the initial models, the next step is to improve the model to achieve better performance. 
+
+<img width="401" alt="Image" src="https://github.com/user-attachments/assets/0664f3de-86da-4452-b8b4-475f486dc7bd" />
 
 ![Image](https://github.com/user-attachments/assets/d67dfdfd-7a4f-450e-b9c6-5f0aad3a37d3)
 
