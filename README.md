@@ -38,6 +38,7 @@ The primary task is to compare the performance of classifiers in predicting mark
 ### Step 5: Engineering Features and Visualization
 After understanding the business objective, we proceed to feature engineering and visualization. This step involves preparing the dataset for modeling, which may include encoding categorical variables, scaling numerical features, and transforming the data as necessary. Visualization is used to explore the relationships between features and the target variable, providing insights that can guide model selection.
 
+
 ### Step 6: Train/Test Split
 Split the data into training and test sets. The training set is used to build the model, while the test set will evaluate the model's performance on unseen data. This ensures that we can assess how well the model generalizes to new data.
 
@@ -56,13 +57,6 @@ Finally, we compare the performance of multiple classifiers (e.g., KNN, Decision
 ### Step 11: Improving the Model
 Once we built and evaluated the initial models, the next step is to improve the model to achieve better performance. 
 
-                           Train Time  Accuracy  Precision    Recall  F1-Score
-Logistic Regression          0.247245  0.909444   0.667257  0.403209  0.502667
-KNN                          0.015698  0.900583   0.577957  0.459893  0.512210
-Decision Tree                0.222385  0.886502   0.500000  0.514439  0.507116
-SVM                         15.706445  0.894513   0.603125  0.206417  0.307570
-KNN (GridSearchCV)          14.034704  0.907138   0.615489  0.484492  0.542190
-SVM (GridSearchCV)         837.827642  0.906167   0.656371  0.363636  0.467997
-Logistic Regression (RFE)    0.031380  0.896455   0.654135  0.186096  0.289759
+
 
 
